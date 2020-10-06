@@ -34,15 +34,15 @@ $ node CaesarCipher.js --action decode --shift 7 --input in.txt --output out.txt
 ```
 
 ```bash
-$ node CaesarCipher -a decode -s 7 -i in.txt
+$ node CaesarCipher -a encode -s 7 -i in.txt
 ```
 
 ```bash
-$ node CaesarCipher -a decode -s 7 -o out.txt
+$ node CaesarCipher -a encode -s 7 -o out.txt
 ```
 
 ```bash
-$ node CaesarCipher -a decode -s 7
+$ node CaesarCipher -a encode -s 7
 ```
 
 > input.txt
