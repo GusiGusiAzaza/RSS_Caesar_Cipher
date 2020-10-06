@@ -6,7 +6,7 @@
 ## How to start
 
 **To start using this Caesar Cipher CLI:**
-- go to the "/caesar-cipher" folder. **ALL commands must be run from this folder**
+- go to the "/CaesarCipher" folder. **ALL commands must be run from this folder**
 - run "npm install" in the "/caesar-cipher" folder
 - start using Caesar Cipher CLI commands and options
 - command format "node caesar-cipher-cli <option 1> <option 2> ...."
