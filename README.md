@@ -22,15 +22,27 @@ CLI tool should accept 4 options (short alias and full name):
 **Usage example:**
 
 ```bash
-$ node CaesarCipher -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node CaesarCipher -a encode -s 7 -i "./in.txt" -o "./out.txt"
 ```
 
 ```bash
-$ node CaesarCipher --action encode --shift 7 --input plain.txt --output encoded.txt
+$ node CaesarCipher --action encode --shift 7 --input in.txt --output out.txt
 ```
 
 ```bash
-$ node CaesarCipher.js --action decode --shift 7 --input decoded.txt --output plain.txt
+$ node CaesarCipher.js --action decode --shift 7 --input in.txt --output out.txt
+```
+
+```bash
+$ node CaesarCipher -a decode -s 7 -i in.txt
+```
+
+```bash
+$ node CaesarCipher -a decode -s 7 -o out.txt
+```
+
+```bash
+$ node CaesarCipher -a decode -s 7
 ```
 
 > input.txt
